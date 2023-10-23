@@ -41,6 +41,7 @@ const { calculateInterest } = require('./interestCalculator.js');
 const balance = 1001;
 const interest = calculateInterest(balance);
 console.log(`Interest for $${balance} is $${interest.toFixed(2)}`);
+```
 
 ```Typescript
 const { calculateInterest } = require('./interestCalculator');
@@ -48,3 +49,4 @@ const { calculateInterest } = require('./interestCalculator');
 const balance = 1001;
 const interest = calculateInterest(balance);
 console.log(`Interest for $${balance} is $${interest.toFixed(2)}`);
+```
