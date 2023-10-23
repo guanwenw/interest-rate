@@ -13,15 +13,12 @@ This is a simple interest calculator for a savings account that pays varying int
 ### Prerequisites
 
 - Node.js and npm should be installed on your machine.
-- Assuming you're using a JavaScript/TypeScript environment, you can use a testing framework like Jest. If you don't have it installed, you can set up a new project using npm:
-bash
+- Assuming using a JavaScript/TypeScript environment, we are using Jest for testing.
 
-npm init -y
-npm install --save-dev jest
 npm install --save-dev jest @types/jest ts-jest typescript
 
 - Run Tests
-npx jest
+npm test
 
 ### Installation
 
