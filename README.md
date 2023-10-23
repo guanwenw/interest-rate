@@ -18,6 +18,7 @@ This is a simple interest calculator for a savings account that pays varying int
 `npm install --save-dev jest @types/jest ts-jest typescript`
 
 - Run Tests
+
 `npm test`
 
 ### Installation
