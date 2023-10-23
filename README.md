@@ -14,8 +14,12 @@ This is a simple interest calculator for a savings account that pays varying int
 
 - Node.js and npm should be installed on your machine.
 - Assuming using a JavaScript/TypeScript environment, we are using Jest for testing.
-
+  
 `npm install --save-dev jest @types/jest ts-jest typescript`
+
+- Install tsc
+  
+`npm install -g typescript`
 
 - Run Tests
 
@@ -32,6 +36,13 @@ This is a simple interest calculator for a savings account that pays varying int
 To calculate the interest for a given balance, use the `calculateInterest` function. The function takes a single argument, which is the account balance, and returns the calculated interest in dollars and cents.
 
 ```javascript
+const { calculateInterest } = require('./interestCalculator.js');
+
+const balance = 1001;
+const interest = calculateInterest(balance);
+console.log(`Interest for $${balance} is $${interest.toFixed(2)}`);
+
+```Typescript
 const { calculateInterest } = require('./interestCalculator');
 
 const balance = 1001;
